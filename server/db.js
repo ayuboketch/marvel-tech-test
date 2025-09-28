@@ -3,6 +3,7 @@ import { readFileSync } from "fs";
 import { mkdirSync } from "fs";
 import { dirname, join } from "path";
 import { fileURLToPath } from "url";
+import { bulkInsert } from "./db.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const dbDir = join(__dirname, "..", "db");
@@ -21,4 +22,3 @@ export function bulkInsert(rows) {
   });
   insertMany(rows);
 }
-export { bulkInsert };
