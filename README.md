@@ -4,7 +4,7 @@
 
 1. `npm install`
 2. Add `.env` with Marvel keys
-3. `npm run dev` (API on :4000, Vite on :5173)
+3. `npm run dev`
 
 ## Features
 
