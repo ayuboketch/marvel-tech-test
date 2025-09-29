@@ -37,7 +37,6 @@
     "nodemon": "^3.1.10",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.44.0",
-    "vite": "^7.1.7",
-    "nothing": "nothing"
+    "vite": "^7.1.7"
   }
 }

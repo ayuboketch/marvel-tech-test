@@ -1,12 +1,5 @@
 # Marvel Characters
 
-A tiny full-stack demo that answers **both** interview questions:
-
-1. Paginated, responsive gallery of Marvel characters (React + Vite).  
-2. Drag-and-drop Excel upload that bulk-inserts rows into SQLite (Express).
-
----
-
 ## What it does
 - Fetches 50 Marvel heroes at a time via the official Marvel REST API.  
 - Caches each page for 10 min in memory → faster reloads.  
@@ -18,7 +11,8 @@ A tiny full-stack demo that answers **both** interview questions:
 ## Stack
 **Front-end**: React 18, Vite, TypeScript  
 **Back-end**: Node 20, Express, better-sqlite3, SheetJS  
-**Hosting**: React → Netlify, API → Render (or any Node host).
+**Hosting**: React → Netlify/Vercel, API → Render (or any Node host).
+live demo: https://marvel-tech-test.vercel.app/
 
 ---
 
@@ -48,5 +42,4 @@ Open [localhost:5173](http://localhost:5173) – browse heroes, then hit **Uploa
 ```
 
 That’s it – clone, run, deploy.  
-Full code is inside each file; this README stays short and skimmable.
 ```
