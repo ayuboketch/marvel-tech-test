@@ -13,7 +13,6 @@ A tiny full-stack demo that answers **both** interview questions:
 - Fetches 50 Marvel heroes at a time via the official Marvel REST API.  
 - Caches each page for 10 min in memory → faster reloads.  
 - Resize your browser: cards collapse to single column (mobile-first CSS).  
-- Drop any `.xlsx` file and watch the rows stream into a local SQLite table in one transaction.
 
 ---
 
