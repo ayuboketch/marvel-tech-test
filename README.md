@@ -21,7 +21,7 @@ live demo: https://marvel-tech-test.vercel.app/
 ```bash
 npm install
 
-npm start          # API :4000  +  Vite :5173
+npm start      
 ```
 Open [localhost:5173](http://localhost:5173) 
 

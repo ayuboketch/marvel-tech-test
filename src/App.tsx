@@ -1,11 +1,8 @@
 import { useEffect, useState } from 'react';
 import './App.css'
 
-
-
 function App() {
   type Character = {
-    //types for typescript
     id: number;
     name: string;
     thumbnail: string;

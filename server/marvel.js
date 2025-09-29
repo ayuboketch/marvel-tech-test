@@ -1,4 +1,3 @@
-//server/marvel.js 
 import axios from "axios";
 import crypto from "crypto";
 

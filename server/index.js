@@ -42,7 +42,6 @@ app.get("/api/characters", async (req, res) => {
     res.json(payload);
   } catch (e) {
     console.error(">>> Marvel call failed <<<");
-    // console.error("URL :", u);
     console.error("Axios error:", e.response?.status, e.response?.statusText);
     console.error("Marvel body:", JSON.stringify(e.response?.data, null, 2));
     res.status(500).json({ error: e.response?.data || e.message });
