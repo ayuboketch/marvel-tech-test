@@ -62,4 +62,4 @@ app.post("/api/upload", upload.single("file"), (req, res) => {
   }
 });
 
-app.listen(port, () => console.log(`Listening on port ${port}`));
+app.listen(port, () => console.log(`serving on port http://localhost:${port}`));
