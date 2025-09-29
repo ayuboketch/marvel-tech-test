@@ -1,5 +1,7 @@
 # Marvel Characters
 
+<img width="1680" height="968" alt="Screenshot 2025-09-29 at 17 43 33" src="https://github.com/user-attachments/assets/34422310-c5d8-4387-ac41-42d887bb36d1" />
+
 A tiny full-stack demo that answers **both** interview questions:
 
 1. Paginated, responsive gallery of Marvel characters (React + Vite).  
@@ -25,6 +27,7 @@ A tiny full-stack demo that answers **both** interview questions:
 ## 30-second try-out
 ```bash
 npm install
+
 npm start          # API :4000  +  Vite :5173
 ```
 Open [localhost:5173](http://localhost:5173) – browse heroes, then hit **Upload** tab.
