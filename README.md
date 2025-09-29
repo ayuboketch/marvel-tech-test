@@ -51,5 +51,5 @@ Open [localhost:5173](http://localhost:5173) – browse heroes, then hit **Uploa
 ```
 
 That’s it – clone, run, deploy.  
-Full code is inside each file; this README stays short and skimmable.
+
 ```
