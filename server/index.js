@@ -48,17 +48,4 @@ app.get("/api/characters", async (req, res) => {
   }
 });
 
-app.post("/api/upload", upload.single("file"), (req, res) => {
-  try {
-    const book = xlsx.readFile(req.file.path);
-    const sheet = book.Sheets[book.SheetNames[0]];
-    const json = xlsx.utils.sheet_to_json(sheet, { defval: "" });
-    const rows = json.map((r) => ({ col_a: r.A, col_b: r.B, col_c: r.C }));
-    bulkInsert(rows);
-    res.json({ inserted: rows.length });
-  } catch (e) {
-    res.status(500).json({ error: e.message });
-  }
-});
-
 app.listen(port, () => console.log(`serving on port http://localhost:${port}`));
