@@ -9,7 +9,7 @@ const dbDir = join(__dirname, "..", "db");
 mkdirSync(dbDir, { recursive: true });
 const db = new Database(join(dbDir, "data.db"));
 
-db.exec(readFileSync("db/schema.sql", "utf8"));
+db.exec(readFileSync(join(__dirname, "..", "db", "schema.sql"), "utf8"));
 
 const stmt = db.prepare(
   "INSERT INTO upload_rows (col_a, col_b, col_c) VALUES (?, ?, ?)"
